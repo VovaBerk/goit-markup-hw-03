@@ -1,0 +1,195 @@
+:root {
+  --color-slate: #434455;
+  --color-purple: #4d5ae5;
+  --color-light: #ffffff;
+  --color-navy: #2e2f42;
+  --font-weight-main: 500;
+  --font-size-main: 16px;
+  --line-height-main: 1.5;
+  --letter-spacing-main: 0.02em;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-navy);
+  background: var(--color-light);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-slate);
+}
+.link:active {
+  color: var(--color-purple);
+}
+
+.btn {
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: var(--font-weight-main);
+  font-size: var(--font-size-main);
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+}
+
+.logo,
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  color: inherit;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo-web {
+  color: var(--color-purple);
+}
+
+.header-link {
+  font-weight: var(--font-weight-main);
+  font-size: var(--font-size-main);
+  line-height: var(--line-height-main);
+  letter-spacing: var(--letter-spacing-main);
+  color: inherit;
+}
+
+.contact-info {
+  font-size: var(--font-size-main);
+  line-height: var(--line-height-main);
+  letter-spacing: var(--letter-spacing-main);
+  color: var(--color-slate);
+  text-decoration: none;
+}
+
+.contact-info:hover {
+  color: var(--color-purple);
+}
+
+.hero {
+  background-color: var(--color-navy);
+}
+
+.hero-title {
+  font-weight: var(--font-weight-main);
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: var(--letter-spacing-main);
+  color: var(--color-light);
+}
+
+.hero-btn {
+  line-height: 1.18;
+  color: var(--color-light);
+  background: var(--color-purple);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.hero-btn:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.hero-btn:active {
+  background: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.advantages-title {
+  font-weight: var(--font-weight-main);
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: var(--letter-spacing-main);
+}
+
+.advantages-text {
+  font-size: var(--font-size-main);
+  line-height: var(--line-height-main);
+  letter-spacing: var(--letter-spacing-main);
+  color: var(--color-slate);
+}
+
+.work {
+  font-weight: var(--font-weight-main);
+  font-size: 36px;
+  line-height: 1.11;
+
+  letter-spacing: var(--letter-spacing-main);
+  text-transform: capitalize;
+}
+
+.team {
+  background: #f4f4fd;
+}
+
+.team-title {
+  font-weight: var(--font-weight-main);
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: var(--letter-spacing-main);
+  text-transform: capitalize;
+}
+
+.team-item {
+  background: var(--color-light);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-name,
+.gallery-name {
+  font-weight: var(--font-weight-main);
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: var(--letter-spacing-main);
+}
+
+.team-job,
+.gallery-text {
+  font-size: var(--font-size-main);
+  line-height: var(--line-height-main);
+  letter-spacing: var(--letter-spacing-main);
+  color: var(--color-dark);
+}
+
+.gallery-item {
+  width: 360px;
+  height: 420px;
+  background: var(--color-light);
+  border: 0.5px solid #f4f4fd;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.footer {
+  background: var(--color-navy);
+}
+
+.logo-footer {
+  color: #f4f4fd;
+}
+
+.footer-paragraph {
+  font-size: var(--font-size-main);
+  line-height: var(--line-height-main);
+  letter-spacing: var(--letter-spacing-main);
+  color: #e7e9fc;
+}
+
+.filter-btn {
+  line-height: var(--line-height-main);
+  color: var(--color-purple);
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+}
+
+.filter-btn:hover {
+  color: var(--color-light);
+  background: var(--color-purple);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
