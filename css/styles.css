@@ -106,7 +106,6 @@ img {
   line-height: 1.2;
   letter-spacing: var(--letter-spacing-main);
   color: var(--color-dark);
-  text-align: left;
 }
 
 .description {
@@ -115,7 +114,6 @@ img {
   font-weight: 400;
   letter-spacing: var(--letter-spacing-main);
   color: var(--color-text);
-  text-align: left;
 }
 
 h2.title {
@@ -365,4 +363,12 @@ h2.title {
   padding-left: 16px;
   border: 0.5px solid #F4F4FD;
   border-top: none;
+}
+
+.text-img .name {
+  text-align: left;
+}
+
+.text-img .description {
+  text-align: left;
 }
